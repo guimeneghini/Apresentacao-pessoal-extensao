@@ -1,5 +1,13 @@
 body {
-    background-color: lightblue;
+    background-color: blue;
+}
+
+main {
+    background-color: white;
+}
+
+.cor {
+    color: white; 
 }
 
 .titulo {
@@ -13,7 +21,7 @@ body {
 
 button {
     border: none;
-    background-color: lightblue;
+    background-color: blue;
 }
 
 h1, p {
