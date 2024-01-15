@@ -20,7 +20,7 @@ main {
 
 button {
     border: none;
-    background-color: lightblue;
+    background-color:rgb(33, 33, 102);
 }
 
 div, h1, h2, p {
@@ -46,4 +46,18 @@ p {
 footer {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+#sizecertificado {
+    font-size: 25px;
+}
+
+.certificações {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fundobutton {
+    background-color: white;
 }
