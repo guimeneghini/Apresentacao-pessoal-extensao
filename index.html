@@ -11,68 +11,73 @@
 </head>
 <body>
     <header class="cor">
-        <h1 class="titulo">Apresentação pessoal do Aluno Guilherme Avila Meneghini</h1>
-        <img class="centralizar" id="figura" src="./img/foto formatura.jpeg" height="100" width="100">
-        <!--<img src="./img/logo-cefet.png" alt="Logo do CEFET-MG" height="100" width="100">-->
-        <button class="centralizar" onclick="trocar()"><img src="./img/icon-flecha.png" alt="icon de icon-flecha" height="20" width="20"></button>
+        <h2>
+            <img src="./img/foto formatura.jpeg" height="200" width="200"> 
+            Guilherme Avila Meneghini 
+            <button onclick="trocar()"><img src="./img/icon-flecha.png" alt="icon de flecha" height="30" width="30"></button>
+            <img src="./img/logo-cefet.png" alt="logo do cefet" height="200" width="200" class="posicao" id="figura" align="right">
+        </h2>
     </header>
     <main>
         <hr>
-        <h1 class="titulo"> <img src="./img/icon-candidato.png" alt="icon de perfil" height="25" width="25"> Um pouco sobre mim <img src="./img/icon-candidato.png" alt="icon de perfil" height="25" width="25"></h1>
-        <p>Meu nome é Guilherme Avila Meneghini, tenho 20 anos, e ingressei no CEFET-MG no início do ano passado.
-            Sou um aluno do curso de Engenharia de Computação do 3º período com grande vontade de aprender e me aprofundar nos assuntos relacionados ao meu curso. 
-            Vim direto da escola para a faculdade, estudava em uma escola federal, Colégio Militar de Belo Horizonte. 
+        <h1 class="titulo"> <img src="./img/icon-candidato.png" alt="icon de perfil" height="25" width="25"> Apresentação Pessoal <img src="./img/icon-candidato.png" alt="icon de perfil" height="25" width="25"></h1>
+        <p>Prezados membros da comissão de seleção, me chamo Guilherme Avila Meneghini e atualmente curso o 3º período de Engenharia de Computação no Centro Federal de Ensino Tecnológico de Minas Gerais (CEFET-MG). 
+            A escolha de iniciar uma graduação dentro da área de tecnologia está diretamente relacionada com a minha trajetória acadêmica do Ensino Fundamental e Médio, 
+            visto que realizei atividades extracurriculares da área de exatas que instigaram a minha paixão por inovação, por ciência e por projetos desafiadores. 
+            Nesse aspecto, participei de competições e olímpiadas que contribuíram para o desenvolvimento da minha criatividade, raciocínio lógico e resolução de problemas. 
+            Além disso, atuei como monitor escolar e professor particular de matemática, química e física como atividade extracurricular, experiência que impulsionou meu senso de liderança e organização.
             <br>
             <br>
-            Inicialmente, não tinha conhecimentos prévios, nem curso técnico sobre informática e afins, contudo sempre fui uma pessoa muito interessada na área de tecnologia. 
-            Dito isso, percebi que muitos de meus colega de classe já sabiam conhecimentos da área e vi uma necessidade de correr atrás de estudos para alcançá-los. 
-            Por isso, venho me esforçando bastante e estudando com afinco as matérias lecionadas pelos professores, assim como também estou buscando material e cursos extraclasse para incrementar meu currículo, conhecimento e experiência.
+            Em razão das vivências acadêmicas citadas, decidi cursar Engenharia de Computação. 
+            Nesse novo cenário, desejo me aprimorar em tecnologia da informação, desenvolver softwares, produzir hardwares e me tornar um profissional atento às tendências e avanços da área, constantemente em busca de inovação e conhecimento. 
+            Para tal, participo do bootcamp de programação, com foco em front-end, ministrado pela Proz e patrocinado pelas empresas Meta e AWS. 
+            Dessa forma, exercito diariamente minhas habilidades com lógica de programação em Python, desenvolvimento web com HTML e CSS, usando JavaScript e banco de dados com SQL. 
             <br>
             <br>
-            Sabendo disso, tenho em mente a necessidade de estar sempre estudando e renovando conhecimentos, principalmente na área de tecnologia.
-            Para isso, estou na fase final de um curso ministrado pelo portal tech e a plataforma portal joy, financiado e apoiado pelas empresas Meta e AWS, com foco em front-end, gratuito e que fui selecionado por um processo seletivo.
-            Nesse curso, aprendi sobre lógica de programação em Python, desenvolvimento web com HTML e CSS, usando JavaScript e introdução à banco de dados com SQL.
-            Além disso, para os concluintes do curso, será disponibilizado um curso diretamente com a AWS sobre Cloudy, que pretendo e desejo concluir para me capacitar ainda mais.
-            <br> 
-            <br>
-            Em resumo, sou uma pessoa dedicada com meus compromissos e que tem sede de conhecimento. 
-            Dessa forma, estou sempre em busca de aprendizados, disposto a executar com responsabilidade o que me é direcionado.
+            Assim, estou em busca de oportunidades para testar minhas habilidades e ampliar meu conhecimento técnico. 
         </p>
 
-        <h1 class="titulo"> <img src="./img/icon-interrogacao.png" alt="icon de interrogação" height="25" width="25"> O porquê de estar me candidatando <img src="./img/icon-interrogacao.png" alt="icon de interrogação" height="25" width="25"></h1>
-        <p>Eu vejo essa oportunidade de participar do projeto extensão de Desenvolvimento de um Sistema para Gestão de Propriedade Intelectual para Instituições de Ciência e Tecnologia como uma fonte de aprendizado muito rica.
-            É uma maneira de adquirir novos conhecimentos e testar minhas habilidade práticas em projetos reais e funcionais, dessa forma, criando experiência profissional desde já.
+        <h2 id="sizecertificado">Minhas certificações</h2>
+        <div class="certificações">
+            <button onclick="trocaIMG1()" class="fundobutton"><img src="./img/icon-seta-esquerda.png" alt="seta para esquerda" width="40"></button>
+            <img src="./img/python.jpeg" alt="certificado" width="300" id="certificado1">
+            <img src="./img/power bi.jpeg" alt="certificado" width="300" id="certificado2">
+            <img src="./img/site simples.jpeg" alt="certificado" width="300" id="certificado3">
+            <button onclick="trocaIMG2()" class="fundobutton"><img src="./img/icon-seta-direita.png" alt="seta para direita" width="40"></button>
+        </div>
+
+        <h1 class="titulo"> Por que participar do Desenvolvimento de um Sistema para Gestão de Propriedade Intelectual para Instituições de Ciência e Tecnologia <img src="./img/icon-interrogacao.png" alt="icon de interrogação" height="30" width="30"></h1>
+        <p>Tenho grande interesse em integrar a equipe do projeto de extensão "Desenvolvimento de um Sistema para Gestão de Propriedade Intelectual para Instituições de Ciência e Tecnologia" pela conexão com minha paixão por inovação. 
+            A gestão eficiente e moderna da Propriedade Intelectual é crucial para o avanço científico em instituições de ensino e pesquisa, por isso a perspectiva de criar um sistema capaz de organizar, 
+            analisar e otimizar o processo de proteção e desenvolvimento de tecnologias é altamente motivadora para um jovem estudante que partilha da mesma vontade de aperfeiçoar processos. 
+            Aliado a essa linha de raciocínio, vejo a oportunidade de trabalhar com metodologias ágeis, programação baseada em testes (TDD) e tecnologias como Python e Django como um desafio que estimulará meu desenvolvimento profissional.
             <br>
             <br>
-            Continuando, aperfeiçoar meus conhecimentos em Pyhton e aprender sobre Django acredito ser uma composição muito importante no meu portifólio de conhecimento.
-            Aliado a isso, sei que vou ser testado durante meu trajeto no projeto e isso vai agregar muito valor para minha prática profissional.
-            <br>
-            <br>
-            Por fim, o processo de automatização de processos é uma temática que chama minha atenção e tenho vontade de me aprofundar no assunto.
-            Vejo também que é um projeto que terei disponibilidade tanto de tempo quanto de vontade pessoal em me dedicar, aprender e contribuir aos envolvidos.
+            Além disso, me identifico com o objetivo do projeto de promover a inovação e facilitar a transferência de tecnologia para a sociedade, visto que essa pauta se alinha diretamente com minha visão de contribuir para um futuro mais tecnologicamente avançado e sustentável. 
+            A perspectiva de participar ativamente do desenvolvimento de um software que pode ter impacto positivo tanto nas instituições de ensino quanto na sociedade como um todo é inspiradora. 
+            Estou entusiasmado com a possibilidade de aplicar meus conhecimentos e habilidades para contribuir de forma significativa para o sucesso desse projeto e para a promoção da inovação no ambiente acadêmico e tecnológico.
         </p>
 
-        <h1 class="titulo"> <img src="./img/icon-expectativas.png" alt="icon de expectativas" height="25" width="25"> Expectativas em participar deste projeto de extensão <img src="./img/icon-expectativas.png" alt="icon de expectativas" height="25" width="25"></h1>
-        <p>Em caso de aprovação desse processo seletivo, tenho como expectativas trabalhar e aprender com grandes professores e profissionais, que poderão me ensinar muito e contribuir para meu progresso acadêmico e profissional.
-            Consigo deslumbrar grandes evoluções do meu perfil como aluno e futuro profissional no mercado ao concluir minhas tarefas, obrigações e estudos que terei nesse projeto.
-            Nessa linha de pensamento, grandes e poderosas ferramentas serão ensinadas e colocadas em teste, o que com certeza irá me capacitar para futuras tarefas e contribuir para refinar meu curricúlo.
+        <h1 class="titulo"> <img src="./img/icon-expectativas.png" alt="icon de expectativas" height="30" width="30"> Expectativas com o projeto <img src="./img/icon-expectativas.png" alt="icon de expectativas" height="30" width="30"></h1>
+        <p>Participar ativamente do projeto de extensão "Desenvolvimento de um Sistema para Gestão de Propriedade Intelectual para Instituições de Ciência e Tecnologia" cria a expectativa de aprendizado e crescimento profissional. 
+            Espero desenvolver competências que não apenas fortalecerão minha base técnica, mas também me capacitarão para enfrentar desafios no mercado de trabalho, onde a agilidade no desenvolvimento de soluções e a implementação de boas práticas são fundamentais. 
+            Viso aprimorar minhas habilidades de trabalho em equipe, comunicação e gestão de projetos, pois o contato com orientadores e colegas de equipe me proporcionará desenvolver um senso mais claro de colaboração, comunicação e postura profissional.
             <br>
             <br>
-            Por outra ótica, conhecerei pessoas importantes para meu desenvolvimento pessoal e também espero de alguma forma contribuir com o desenvolvimento dos envolvidos.
-            Criarei uma boa rede de networking para me ajudar no futuro, amizades relevantes para o mercado de trabalho e uma boa relação com professores do CEFET-MG, o que prezo muito.
-            Tudo isso em conjunto com empenho e dedicação do início ao fim do projeto de extensão, buscando ser um bom contribuinte para as pessoas envolvidas na atividade.
+            Este projeto também representa uma virada de chave para meu envolvimento em atividades de pesquisa e extensão, 
+            segmentos de atuação que considero essenciais para que a minha formação acadêmica seja completa e enriquecedora na construção do meu perfil profissional como alguém que é pesquisador, curioso e, principalmente, um cientista e comprometido com o desenvolvimento tecnológico. 
         </p>
 
         <hr>
     </main>
     <footer class="cor">
-        <h1>Minhas informações:</h1>
-        <ul>
-            <li><img src="./img/icon-email.png" alt="icon do email" height="15" width="15"> E-MAIL: guimeneghini10@gmail.com</li>
-            <li><img src="./img/icon-github.png" alt="icon do github" height="15" width="15"> GITHUB: https://github.com/guimeneghini</li>
-            <li><img src="./img/icon-matricula.png" alt="icon de matricula" height="15" width="15"> MATRÍCULA: 20233002188</li>
-            <li><img src="./img/icon-telefone.png" alt="icon de telefone" height="15" width="15"> TELEFONE: +55 (31) 9 8278-9868</li>
-        </ul>
+        <h1>Informações adicionais:</h1>
+        <div>
+            <img src="./img/icon-email.png" alt="icon do email" height="15" width="15"> E-MAIL: guimeneghini10@gmail.com <br>
+            <img src="./img/icon-github.png" alt="icon do github" height="15" width="15"> GITHUB: https://github.com/guimeneghini <br>
+            <img src="./img/icon-matricula.png" alt="icon de matricula" height="15" width="15"> MATRÍCULA: 20233002188 <br>
+            <img src="./img/icon-telefone.png" alt="icon de telefone" height="15" width="15"> TELEFONE: +55 (31) 9 8278-9868 <br>
+        </div>
     </footer>
 </body>
 </html>

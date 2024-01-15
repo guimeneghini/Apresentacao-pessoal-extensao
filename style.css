@@ -1,5 +1,5 @@
 body {
-    background-color: blue;
+    background-color: rgb(33, 33, 102);
 }
 
 main {
@@ -10,27 +10,30 @@ main {
     color: white; 
 }
 
-
 .titulo {
     text-align: center;
 }
 
-.centralizar {
-    margin: auto;
-    display: block;
+.posicao {
+    padding-right: 50px;
 }
 
 button {
     border: none;
-    background-color: blue;
+    background-color:rgb(33, 33, 102);
 }
 
-h1, p {
-    font-family: 'Times New Roman', Times, serif;
+div, h1, h2, p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
+    font-size: 40px;
+}
+
+h2 {
     font-size: 35px;
+    padding-left: 50px;
 }
 
 p {
@@ -43,4 +46,18 @@ p {
 footer {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+#sizecertificado {
+    font-size: 25px;
+}
+
+.certificações {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fundobutton {
+    background-color: white;
 }
