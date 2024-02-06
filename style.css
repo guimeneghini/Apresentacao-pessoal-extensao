@@ -43,11 +43,6 @@ p {
     text-align: justify;
 }
 
-footer {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
 #sizecertificado {
     font-size: 25px;
 }
@@ -60,4 +55,26 @@ footer {
 
 .fundobutton {
     background-color: white;
+}
+
+#bt-voltar {
+    text-align: center;
+    margin: 50px 0;
+  
+}
+
+#bt-voltar a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(33, 33, 102);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+footer {
+    padding-left: 50px;
+    padding-right: 50px;
 }
